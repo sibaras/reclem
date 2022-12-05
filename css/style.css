@@ -1,0 +1,138 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-inner{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.nav{
+    background-color: #F2F2F2;
+    padding: 25px 0;
+    border-bottom: solid 6px #e5e5e5;
+}
+.nav-inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    margin-right: 45px;
+}
+.nav-buttons{
+    display: flex;
+}
+.item{
+    font-weight: 500;
+    margin-right: 28px;
+}
+.nav-icon{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-right: 28px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+}
+.constructor-icon{
+    padding: 12px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+}
+.con-icon{
+    margin-left: 10px;
+}
+.main-block{
+    text-align: center;
+    padding: 84px 0 356px;
+    background-color: #F2F2F2;
+    background-image: url(../img/interactive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+.title{
+    font-size: 36px;
+    font-weight: 600;
+}
+.print{
+    text-decoration-line: underline;
+    text-decoration-thickness: 6px;
+    text-decoration-color: #ffa630;
+}
+.line-text-dark{
+    background-image: url(../img/line-dark.png);
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+}
+.row{
+    display: flex;
+}
+.advantage-block{
+    margin-bottom: 160px;
+}
+
+
+
+
+
+
+.constructor-green{
+    width: 65%;
+    height: 384px;
+    right: 0;
+    background-color: #10bb87;
+    position: absolute;
+    background-image: url(../img/pattern.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    border-radius: 28px 0 0 0;
+    padding: 50px 0 50px 11%;
+}
+.constructor-wrapper{
+    position: relative;
+}
+
+.constructor-info{
+    max-width: 352px;
+    margin-top: 50px;
+}
+
+
+.constructor-info h2{
+    color: #fff;
+    margin-bottom: 44px;
+}
+.constructor-info p{
+    color: #487B6C;
+    margin-bottom: 28px;
+}
+.constructor-img{
+
+}
